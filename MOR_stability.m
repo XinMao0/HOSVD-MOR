@@ -1,6 +1,6 @@
 % Parameters
 n = 6;      % Dimension of tensor A
-r = 3;      % Dimension of reduced tensor
+r = 3;      % Dimension of reduced tensor S
 k = 4;      % Order of tensor A
 T = 15;     % Final time
 
@@ -64,7 +64,7 @@ grid on;
 
 % Compute dx symbolically
 
-% % Define symbolic state variables 
+% Define symbolic state variables 
 syms x [n 1] real  % x = [x1; x2; x3; x4; x5; x6]
 
 % Compute dx symbolically
